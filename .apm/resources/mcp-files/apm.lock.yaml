@@ -1,0 +1,35 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: kiao-files
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9bb2113c9af742c104ace9fb666ddf1bb2bb2645f362d24751dca3e4c9a3ae0b
+- kind: uri
+  target: mcp
+  value: kiao-files
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:69628caf71e0d6ab778c88fe67d63197b855d9c84e323a4a935498fe9b839de9
+mcp_servers:
+- kiao-files
+mcp_configs:
+  kiao-files:
+    name: kiao-files
+    transport: stdio
+    registry: false
+    command: kiao-mcp-files
+mcp_target_servers:
+  claude:
+  - kiao-files
+  codex:
+  - kiao-files

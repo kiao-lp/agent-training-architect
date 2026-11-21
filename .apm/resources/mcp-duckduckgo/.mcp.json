@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "duckduckgo": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "duckduckgo-mcp-server==0.6.1",
+        "duckduckgo-mcp-server"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mcp-papers",
+  "version": "1.0.0",
+  "description": "papers MCP configuration, 0.1.4",
+  "targets": [
+    "codex",
+    "claude"
+  ],
+  "dependencies": {
+    "mcp": [
+      {
+        "name": "papers",
+        "registry": false,
+        "transport": "stdio",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "paper-search-mcp==0.1.4",
+          "paper-search-mcp"
+        ]
+      }
+    ]
+  }
+}

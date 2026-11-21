@@ -1,0 +1,39 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: duckduckgo
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:956ea227e53343252c33ca415f92b3f2ece81236f20f00be35ad2bc06982d82a
+- kind: uri
+  target: mcp
+  value: duckduckgo
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:3ba12cd12f9dc3c3aae39ab0c829abc5d9efebdb7d6906499624bcef9d4f3ab2
+mcp_servers:
+- duckduckgo
+mcp_configs:
+  duckduckgo:
+    name: duckduckgo
+    transport: stdio
+    args:
+    - --from
+    - duckduckgo-mcp-server==0.6.1
+    - duckduckgo-mcp-server
+    registry: false
+    command: uvx
+mcp_target_servers:
+  claude:
+  - duckduckgo
+  codex:
+  - duckduckgo

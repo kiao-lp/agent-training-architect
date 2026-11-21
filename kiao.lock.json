@@ -1,0 +1,36 @@
+{
+  "resources": [
+    {
+      "name": "mcp-cv",
+      "commit": "ed5be06fa1e7112852eb91641bd6a56a004da15e"
+    },
+    {
+      "name": "mcp-duckduckgo",
+      "commit": "9e3dd046cb6d952ace2dd791f8214361a9067343"
+    },
+    {
+      "name": "mcp-fetch",
+      "commit": "84bce795105aed58decdaae297bf3ed550c8a1d2"
+    },
+    {
+      "name": "mcp-files",
+      "commit": "41ba06152a0eab4d88dd8b76a28e117356acbfab"
+    },
+    {
+      "name": "mcp-markitdown",
+      "commit": "0e001ca4c9bed786fc869a00f0270745e00419db"
+    },
+    {
+      "name": "mcp-papers",
+      "commit": "fde78eb8019d93d82f76f7cc584135e9b18ab756"
+    },
+    {
+      "name": "mcp-playwright",
+      "commit": "c2eb054f84253c2768ea17016d9a0ba35197d2dc"
+    },
+    {
+      "name": "mcp-units",
+      "commit": "74a6a9c3f11bd636198d84e28677baef17b0eb2e"
+    }
+  ]
+}

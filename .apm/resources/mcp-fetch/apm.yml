@@ -1,0 +1,26 @@
+{
+  "name": "mcp-fetch",
+  "version": "1.0.0",
+  "description": "fetch MCP configuration, 2026.8.18",
+  "targets": [
+    "codex",
+    "claude"
+  ],
+  "dependencies": {
+    "mcp": [
+      {
+        "name": "fetch",
+        "registry": false,
+        "transport": "stdio",
+        "command": "uvx",
+        "args": [
+          "--with",
+          "mcp<2",
+          "--from",
+          "mcp-server-fetch==2026.8.18",
+          "mcp-server-fetch"
+        ]
+      }
+    ]
+  }
+}

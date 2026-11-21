@@ -1,0 +1,39 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: markitdown
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:69a67002f3ef5d4b3b3d0d69567e6bbd2c68026216606c931895f526031f49fb
+- kind: uri
+  target: mcp
+  value: markitdown
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:0a4740e0091c6807a915298339b54068260ee0be5c411ee2e64666c322883c11
+mcp_servers:
+- markitdown
+mcp_configs:
+  markitdown:
+    name: markitdown
+    transport: stdio
+    args:
+    - --from
+    - markitdown-mcp==0.0.1a4
+    - markitdown-mcp
+    registry: false
+    command: uvx
+mcp_target_servers:
+  claude:
+  - markitdown
+  codex:
+  - markitdown

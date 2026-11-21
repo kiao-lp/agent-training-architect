@@ -1,0 +1,42 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: playwright
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:646ec42d3c84bc9920123bb4dc1a7d89acd739f9b64a1096c1fe208457fbc043
+- kind: uri
+  target: mcp
+  value: playwright
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:b019c3f018050cd00adeaf712fe63bef7c351c8b84e9e328f23b8b01575f965c
+mcp_servers:
+- playwright
+mcp_configs:
+  playwright:
+    name: playwright
+    transport: stdio
+    args:
+    - --yes
+    - '@playwright/mcp@0.0.79'
+    - --headless
+    - --isolated
+    - --browser
+    - chromium
+    registry: false
+    command: npx
+mcp_target_servers:
+  claude:
+  - playwright
+  codex:
+  - playwright

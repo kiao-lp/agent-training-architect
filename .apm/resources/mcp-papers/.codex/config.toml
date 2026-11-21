@@ -1,0 +1,5 @@
+[mcp_servers.papers]
+command = "uvx"
+args = ["--from", "paper-search-mcp==0.1.4", "paper-search-mcp"]
+
+[mcp_servers.papers.env]

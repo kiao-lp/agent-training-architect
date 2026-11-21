@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kiao-units": {
+      "type": "stdio",
+      "command": "kiao-mcp-units",
+      "args": []
+    }
+  }
+}

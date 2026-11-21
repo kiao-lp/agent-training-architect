@@ -1,0 +1,39 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: papers
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:b82f2c3f4d5ca8107efb2b6308a606a5882a9cefa5853f70b6932e47698bc6a0
+- kind: uri
+  target: mcp
+  value: papers
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:283c8c277f7ea1762499c6eb92e87ec78acd0049de0e3d6c1ba022e38a1262f8
+mcp_servers:
+- papers
+mcp_configs:
+  papers:
+    name: papers
+    transport: stdio
+    args:
+    - --from
+    - paper-search-mcp==0.1.4
+    - paper-search-mcp
+    registry: false
+    command: uvx
+mcp_target_servers:
+  claude:
+  - papers
+  codex:
+  - papers

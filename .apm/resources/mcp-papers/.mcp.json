@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "papers": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "paper-search-mcp==0.1.4",
+        "paper-search-mcp"
+      ]
+    }
+  }
+}

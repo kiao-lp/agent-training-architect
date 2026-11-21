@@ -1,0 +1,24 @@
+{
+  "name": "mcp-markitdown",
+  "version": "1.0.0",
+  "description": "markitdown MCP configuration, 0.0.1a4",
+  "targets": [
+    "codex",
+    "claude"
+  ],
+  "dependencies": {
+    "mcp": [
+      {
+        "name": "markitdown",
+        "registry": false,
+        "transport": "stdio",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "markitdown-mcp==0.0.1a4",
+          "markitdown-mcp"
+        ]
+      }
+    ]
+  }
+}

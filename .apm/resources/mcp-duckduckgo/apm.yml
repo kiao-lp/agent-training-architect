@@ -1,0 +1,24 @@
+{
+  "name": "mcp-duckduckgo",
+  "version": "1.0.0",
+  "description": "duckduckgo MCP configuration, 0.6.1",
+  "targets": [
+    "codex",
+    "claude"
+  ],
+  "dependencies": {
+    "mcp": [
+      {
+        "name": "duckduckgo",
+        "registry": false,
+        "transport": "stdio",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "duckduckgo-mcp-server==0.6.1",
+          "duckduckgo-mcp-server"
+        ]
+      }
+    ]
+  }
+}

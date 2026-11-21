@@ -1,0 +1,27 @@
+{
+  "name": "mcp-playwright",
+  "version": "1.0.0",
+  "description": "playwright MCP configuration, 0.0.79",
+  "targets": [
+    "codex",
+    "claude"
+  ],
+  "dependencies": {
+    "mcp": [
+      {
+        "name": "playwright",
+        "registry": false,
+        "transport": "stdio",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "@playwright/mcp@0.0.79",
+          "--headless",
+          "--isolated",
+          "--browser",
+          "chromium"
+        ]
+      }
+    ]
+  }
+}

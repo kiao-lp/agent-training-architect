@@ -1,0 +1,5 @@
+[mcp_servers.duckduckgo]
+command = "uvx"
+args = ["--from", "duckduckgo-mcp-server==0.6.1", "duckduckgo-mcp-server"]
+
+[mcp_servers.duckduckgo.env]

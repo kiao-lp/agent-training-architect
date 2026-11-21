@@ -1,0 +1,41 @@
+lockfile_version: '1'
+apm_version: 0.35.1
+dependencies: []
+deployments:
+- kind: uri
+  target: mcp
+  value: fetch
+  runtime: claude
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:082e0ee2c23f7681d66306b997581dc6d4af9e96909ceb8c84dd44ae25956bf1
+- kind: uri
+  target: mcp
+  value: fetch
+  runtime: codex
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:6826e3e719ab1ea31d96727e10615e609160829ef274c4fd6a5b58f2a4cee1b6
+mcp_servers:
+- fetch
+mcp_configs:
+  fetch:
+    name: fetch
+    transport: stdio
+    args:
+    - --with
+    - mcp<2
+    - --from
+    - mcp-server-fetch==2026.8.18
+    - mcp-server-fetch
+    registry: false
+    command: uvx
+mcp_target_servers:
+  claude:
+  - fetch
+  codex:
+  - fetch

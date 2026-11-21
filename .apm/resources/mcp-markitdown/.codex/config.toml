@@ -1,0 +1,5 @@
+[mcp_servers.markitdown]
+command = "uvx"
+args = ["--from", "markitdown-mcp==0.0.1a4", "markitdown-mcp"]
+
+[mcp_servers.markitdown.env]

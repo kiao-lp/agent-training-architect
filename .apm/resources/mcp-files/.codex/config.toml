@@ -1,0 +1,5 @@
+[mcp_servers.kiao-files]
+command = "kiao-mcp-files"
+args = []
+
+[mcp_servers.kiao-files.env]
