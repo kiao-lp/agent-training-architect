@@ -1,60 +1,44 @@
 dependencies:
-  apm:
-  - path: ./.apm/resources/mcp-cv
-  - path: ./.apm/resources/mcp-duckduckgo
-  - path: ./.apm/resources/mcp-fetch
-  - path: ./.apm/resources/mcp-files
-  - git: git@github.com:kiao-lp/mcp-hybridflow.git
-    ref: v1.0.4
-  - path: ./.apm/resources/mcp-markitdown
-  - path: ./.apm/resources/mcp-papers
-  - path: ./.apm/resources/mcp-playwright
-  - path: ./.apm/resources/mcp-units
-  - alias: actlog
-    git: git@github.com:kiao-lp/skill-actlog.git
-    ref: afc018fdb84822ae963a00dfd199c8db67541f4a
-  - alias: archdia
-    git: git@github.com:kiao-lp/skill-archdia.git
-    ref: 1fa104011f3ffb3dcbc11c8438758d3d3fb809cf
-  - alias: featmat
-    git: git@github.com:kiao-lp/skill-featmat.git
-    ref: f3fe3bdecc436aa5ddc2173e90258b3cdd9a11a0
-  - alias: graph
-    git: git@github.com:kiao-lp/skill-graph.git
-    ref: a73c08b1582a4e956d9b1f951dcc4519bd2eae09
-  - alias: hybridflow
-    git: git@github.com:kiao-lp/skill-hybridflow.git
-    ref: v1.0.4
-  - alias: kiao-adr
-    git: git@github.com:kiao-lp/skill-kiao-adr.git
-    ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
-  - alias: learning-module
-    git: git@github.com:kiao-lp/skill-learning-module.git
-    ref: 23b9278799f444dec0e6e636d96d56998aff5620
-  - alias: markdown-anchors
-    git: git@github.com:kiao-lp/skill-markdown-anchors.git
-    ref: c948219e360d93f8af3ef97f09f811e0536007be
-  - alias: markdown-metadata
-    git: git@github.com:kiao-lp/skill-markdown-metadata.git
-    ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
-  - alias: markdown-passage-link
-    git: git@github.com:kiao-lp/skill-markdown-passage-link.git
-    ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
-  - alias: mindmap
-    git: git@github.com:kiao-lp/skill-mindmap.git
-    ref: a6437ce1402f1804b2a537db9896889910d07e74
-  - alias: mlunit
-    git: git@github.com:kiao-lp/skill-mlunit.git
-    ref: 5b82d9d86bffff86569f45c43982853537213d92
-  - alias: strategy
-    git: git@github.com:kiao-lp/skill-strategy.git
-    ref: 9d8d7fe28211379d32bb43da03f8ffce20fdf9cc
-  - alias: template-lang
-    git: git@github.com:kiao-lp/skill-template-lang.git
-    ref: 0187515945a2379e95fac8c8b3bfbb6db562e182
+    apm:
+        - path: ./.apm/resources/mcp-duckduckgo
+        - path: ./.apm/resources/mcp-fetch
+        - path: ./.apm/resources/mcp-files
+        - git: git@github.com:kiao-lp/mcp-hybridflow.git
+          ref: v1.0.4
+        - path: ./.apm/resources/mcp-markitdown
+        - path: ./.apm/resources/mcp-papers
+        - path: ./.apm/resources/mcp-playwright
+        - path: ./.apm/resources/mcp-units
+        - alias: hybridflow
+          git: git@github.com:kiao-lp/skill-hybridflow.git
+          ref: v1.0.4
+        - alias: kiao-adr
+          git: git@github.com:kiao-lp/skill-kiao-adr.git
+          ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
+        - alias: learning-module
+          git: git@github.com:kiao-lp/skill-learning-module.git
+          ref: 23b9278799f444dec0e6e636d96d56998aff5620
+        - alias: markdown-anchors
+          git: git@github.com:kiao-lp/skill-markdown-anchors.git
+          ref: c948219e360d93f8af3ef97f09f811e0536007be
+        - alias: markdown-metadata
+          git: git@github.com:kiao-lp/skill-markdown-metadata.git
+          ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
+        - alias: markdown-passage-link
+          git: git@github.com:kiao-lp/skill-markdown-passage-link.git
+          ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
+        - alias: mindmap
+          git: git@github.com:kiao-lp/skill-mindmap.git
+          ref: a6437ce1402f1804b2a537db9896889910d07e74
+        - alias: mlunit
+          git: git@github.com:kiao-lp/skill-mlunit.git
+          ref: 5b82d9d86bffff86569f45c43982853537213d92
+        - alias: template-lang
+          git: git@github.com:kiao-lp/skill-template-lang.git
+          ref: 0187515945a2379e95fac8c8b3bfbb6db562e182
 description: Design trainings
 name: agent-training-architect
 targets:
-- codex
-- claude
-version: 1.0.0
+    - codex
+    - claude
+version: 1.1.0

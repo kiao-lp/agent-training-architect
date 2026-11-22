@@ -1,10 +1,6 @@
 {
   "resources": [
     {
-      "name": "mcp-cv",
-      "commit": "ed5be06fa1e7112852eb91641bd6a56a004da15e"
-    },
-    {
       "name": "mcp-duckduckgo",
       "commit": "9e3dd046cb6d952ace2dd791f8214361a9067343"
     },
