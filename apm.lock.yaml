@@ -94,9 +94,9 @@ dependencies:
   alias: archdia
   name: archdia
   host: github.com
-  resolved_commit: 1fa104011f3ffb3dcbc11c8438758d3d3fb809cf
-  resolved_ref: 1fa104011f3ffb3dcbc11c8438758d3d3fb809cf
-  version: 1.0.0
+  resolved_commit: 81a0fa9f4f862082639d1e560e8d126287d2062d
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/archdia
@@ -110,11 +110,11 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/archdia/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/archdia/SKILL.md: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
-    .agents/skills/archdia/apm.yml: sha256:87b6af5cc19e8e93d248f29390df2955802b622b4f055e6097caac15e84c68f5
+    .agents/skills/archdia/apm.yml: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
     .claude/skills/archdia/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/archdia/SKILL.md: sha256:7cd49fe1bbc061c3980705e31b61e12fa8683d2ede7453ef21bb6e3320609c29
-    .claude/skills/archdia/apm.yml: sha256:87b6af5cc19e8e93d248f29390df2955802b622b4f055e6097caac15e84c68f5
-  content_hash: sha256:74d00a6019516a6de66c83f45c9b908f70ce0d544e8727ae832ce7934bda3cfb
+    .claude/skills/archdia/apm.yml: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
+  content_hash: sha256:ef021d3f7d7131fab31ccb565d5fc35b4610d405589fae2f63bde500ab0c6111
 - repo_url: kiao-lp/skill-featmat
   alias: featmat
   name: featmat
@@ -169,9 +169,9 @@ dependencies:
   alias: hybridflow
   name: hybridflow
   host: github.com
-  resolved_commit: 1e8c01ea76344568472c92f59f19ba583fe02f79
-  resolved_ref: v1.0.4
-  version: 1.0.4
+  resolved_commit: d17b486171350b866e75d1e99f4450c893461301
+  resolved_ref: v1.0.5
+  version: 1.0.5
   package_type: hybrid
   deployed_files:
   - .agents/skills/hybridflow
@@ -211,7 +211,7 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/hybridflow/SKILL.md: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
-    .agents/skills/hybridflow/apm.yml: sha256:974f8e7b99a0530970c407d81b8ed63bea412433be14aaaca0d2efeb11cc36a4
+    .agents/skills/hybridflow/apm.yml: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
     .agents/skills/hybridflow/references/api-curl.md: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
     .agents/skills/hybridflow/references/cards.md: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
     .agents/skills/hybridflow/references/chains.md: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
@@ -227,7 +227,7 @@ dependencies:
     .agents/skills/hybridflow/references/structured-data.md: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
     .claude/skills/hybridflow/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/hybridflow/SKILL.md: sha256:b7249d1a9b547d8f92d512dd4670ce2de7e7ca6b82619d27677fdb5bb7a1253a
-    .claude/skills/hybridflow/apm.yml: sha256:974f8e7b99a0530970c407d81b8ed63bea412433be14aaaca0d2efeb11cc36a4
+    .claude/skills/hybridflow/apm.yml: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
     .claude/skills/hybridflow/references/api-curl.md: sha256:ad3903957fdae49017dd692d036a3439443eecd00f92e2b3256a5927e97b9d17
     .claude/skills/hybridflow/references/cards.md: sha256:c5f731c7485d13169bce6db689a423edaa8b80a7f9f74e265e1223df39ab77ff
     .claude/skills/hybridflow/references/chains.md: sha256:b871c9bddd0737c11d463d818ecfbbaf9aaa8383489dcf0a282fad466229a1cb
@@ -241,7 +241,7 @@ dependencies:
     .claude/skills/hybridflow/references/reuse/templates.md: sha256:ab906f8ed22dd710322b4d522e777c0cef29c177696fc404a3862796b3359bf8
     .claude/skills/hybridflow/references/reuse/workflows.md: sha256:2dcece95586aed98feb80c38ffd4fa44dbbd7fcbe020f5c3f9ddda1300a23d71
     .claude/skills/hybridflow/references/structured-data.md: sha256:e9904686f3e17164418b8ff83680404c91bc241c811a7f1730584431ec8333d1
-  content_hash: sha256:da9525b123b16ae2e1492073ffb95bcec49731f3fa46ee881681b1d05b3d61dc
+  content_hash: sha256:48b6c6140259a2243c922b4f1906bc9e37e7a1f1cde905c4a9fd415ebf1c65ce
 - repo_url: kiao-lp/skill-kiao-adr
   alias: kiao-adr
   name: kiao-adr
@@ -379,9 +379,9 @@ dependencies:
   alias: mindmap
   name: mindmap
   host: github.com
-  resolved_commit: a6437ce1402f1804b2a537db9896889910d07e74
-  resolved_ref: a6437ce1402f1804b2a537db9896889910d07e74
-  version: 1.0.0
+  resolved_commit: 15ce5f9b336aadea39bac8807ba4a3d0e92cf323
+  resolved_ref: v1.0.1
+  version: 1.0.1
   package_type: hybrid
   deployed_files:
   - .agents/skills/mindmap
@@ -395,11 +395,11 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/mindmap/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .agents/skills/mindmap/SKILL.md: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
-    .agents/skills/mindmap/apm.yml: sha256:0226e2a91f4f5b0789ff448ab7be0fcb62b4757fbccdf1d9beeab78f44f1f5d6
+    .agents/skills/mindmap/apm.yml: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
     .claude/skills/mindmap/.gitignore: sha256:7cca993605bfa4475dc4679755307ef2d079105f64954c091a1a23746e936528
     .claude/skills/mindmap/SKILL.md: sha256:2d6299072ddd91168ffa8536f73cd542236fa6c9a52ade25609e7a256e80d909
-    .claude/skills/mindmap/apm.yml: sha256:0226e2a91f4f5b0789ff448ab7be0fcb62b4757fbccdf1d9beeab78f44f1f5d6
-  content_hash: sha256:fb1a89034a23d042667a2428fa873fb6278af514af8c919cfd8f9e6da6d45a20
+    .claude/skills/mindmap/apm.yml: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
+  content_hash: sha256:650384704ddd8fc190e976e250d5cbc5cdcd78e7dcd12cbe3a97118ed0726f53
 - repo_url: kiao-lp/skill-mlunit
   alias: mlunit
   name: mlunit
@@ -572,7 +572,7 @@ deployments:
   owners:
   - kiao-lp/skill-archdia
   active_owner: kiao-lp/skill-archdia
-  content_hash: sha256:87b6af5cc19e8e93d248f29390df2955802b622b4f055e6097caac15e84c68f5
+  content_hash: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
 - kind: project-relative
   target: claude
   value: .claude/skills/featmat
@@ -680,7 +680,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:974f8e7b99a0530970c407d81b8ed63bea412433be14aaaca0d2efeb11cc36a4
+  content_hash: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow/references/api-curl.md
@@ -1031,7 +1031,7 @@ deployments:
   owners:
   - kiao-lp/skill-mindmap
   active_owner: kiao-lp/skill-mindmap
-  content_hash: sha256:0226e2a91f4f5b0789ff448ab7be0fcb62b4757fbccdf1d9beeab78f44f1f5d6
+  content_hash: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
 - kind: project-relative
   target: claude
   value: .claude/skills/mlunit
@@ -1247,7 +1247,7 @@ deployments:
   owners:
   - kiao-lp/skill-archdia
   active_owner: kiao-lp/skill-archdia
-  content_hash: sha256:87b6af5cc19e8e93d248f29390df2955802b622b4f055e6097caac15e84c68f5
+  content_hash: sha256:4452a494578f0170f5fdf464f08fa35d6eb203c173642df9946937387e54f3c6
 - kind: project-relative
   target: codex
   value: .agents/skills/featmat
@@ -1355,7 +1355,7 @@ deployments:
   owners:
   - kiao-lp/skill-hybridflow
   active_owner: kiao-lp/skill-hybridflow
-  content_hash: sha256:974f8e7b99a0530970c407d81b8ed63bea412433be14aaaca0d2efeb11cc36a4
+  content_hash: sha256:b6cc82091c1909ff4e52849c83b5dafe0b2919a2069d7c353a0f15e626b19d27
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow/references/api-curl.md
@@ -1706,7 +1706,7 @@ deployments:
   owners:
   - kiao-lp/skill-mindmap
   active_owner: kiao-lp/skill-mindmap
-  content_hash: sha256:0226e2a91f4f5b0789ff448ab7be0fcb62b4757fbccdf1d9beeab78f44f1f5d6
+  content_hash: sha256:f3be5d5154311c6ee2ba6a6f1b0ceec67ff63e8afa804b6523e2aecb988cc911
 - kind: project-relative
   target: codex
   value: .agents/skills/mlunit
