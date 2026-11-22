@@ -4,7 +4,7 @@ dependencies:
         - path: ./.apm/resources/mcp-fetch
         - path: ./.apm/resources/mcp-files
         - git: https://github.com/kiao-lp/mcp-hybridflow.git
-          ref: v1.0.4
+          ref: v1.0.5
         - path: ./.apm/resources/mcp-markitdown
         - path: ./.apm/resources/mcp-papers
         - path: ./.apm/resources/mcp-playwright
@@ -14,31 +14,31 @@ dependencies:
           ref: v1.0.5
         - alias: kiao-adr
           git: https://github.com/kiao-lp/skill-kiao-adr.git
-          ref: c0a6314bcabc53ef4f1c29999231a014db1a8361
+          ref: v1.0.1
         - alias: learning-module
           git: https://github.com/kiao-lp/skill-learning-module.git
-          ref: 23b9278799f444dec0e6e636d96d56998aff5620
+          ref: v1.0.1
         - alias: markdown-anchors
           git: https://github.com/kiao-lp/skill-markdown-anchors.git
-          ref: c948219e360d93f8af3ef97f09f811e0536007be
+          ref: v1.0.1
         - alias: markdown-metadata
           git: https://github.com/kiao-lp/skill-markdown-metadata.git
-          ref: e4d0aaed9074a2984e622ecf3fe16a31511edfaf
+          ref: v1.0.1
         - alias: markdown-passage-link
           git: https://github.com/kiao-lp/skill-markdown-passage-link.git
-          ref: 9024f974a59dcd794eb00ee603a8039fe0380e86
+          ref: v1.0.1
         - alias: mindmap
           git: https://github.com/kiao-lp/skill-mindmap.git
           ref: v1.0.1
         - alias: mlunit
           git: https://github.com/kiao-lp/skill-mlunit.git
-          ref: 5b82d9d86bffff86569f45c43982853537213d92
+          ref: v1.0.1
         - alias: template-lang
           git: https://github.com/kiao-lp/skill-template-lang.git
-          ref: 0187515945a2379e95fac8c8b3bfbb6db562e182
+          ref: v1.0.1
 description: Design trainings
 name: agent-training-architect
 targets:
     - codex
     - claude
-version: 1.1.1
+version: 1.1.2
