@@ -1,5 +1,0 @@
-[mcp_servers.kiao-units]
-command = "kiao-mcp-units"
-args = []
-
-[mcp_servers.kiao-units.env]

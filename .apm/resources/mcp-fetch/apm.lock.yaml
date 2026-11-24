@@ -10,7 +10,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:082e0ee2c23f7681d66306b997581dc6d4af9e96909ceb8c84dd44ae25956bf1
+  content_hash: sha256:5e23c30431f07b63a22965f9dc976bf0ea781e07512d1f9b7e4b0c8f2f400aa8
 - kind: uri
   target: mcp
   value: fetch
@@ -19,7 +19,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:6826e3e719ab1ea31d96727e10615e609160829ef274c4fd6a5b58f2a4cee1b6
+  content_hash: sha256:d173300129f5c892dfe41e1a5117c0a7d3bd685f234493c9496c13b7052b9251
 mcp_servers:
 - fetch
 mcp_configs:
@@ -27,10 +27,8 @@ mcp_configs:
     name: fetch
     transport: stdio
     args:
-    - --with
-    - mcp<2
     - --from
-    - mcp-server-fetch==2026.8.18
+    - mcp-server-fetch==2026.11.18
     - mcp-server-fetch
     registry: false
     command: uvx

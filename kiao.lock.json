@@ -2,31 +2,23 @@
   "resources": [
     {
       "name": "mcp-duckduckgo",
-      "commit": "9e3dd046cb6d952ace2dd791f8214361a9067343"
+      "commit": "9127e624bd01145c3f6b7c6540cc05492a40943a"
     },
     {
       "name": "mcp-fetch",
-      "commit": "84bce795105aed58decdaae297bf3ed550c8a1d2"
-    },
-    {
-      "name": "mcp-files",
-      "commit": "41ba06152a0eab4d88dd8b76a28e117356acbfab"
+      "commit": "cfaa2cc5df9c0911dd5a4ef282448dc22e9df252"
     },
     {
       "name": "mcp-markitdown",
-      "commit": "0e001ca4c9bed786fc869a00f0270745e00419db"
+      "commit": "559234ef67d832f590e0bbcb4fecee178e612ad1"
     },
     {
       "name": "mcp-papers",
-      "commit": "fde78eb8019d93d82f76f7cc584135e9b18ab756"
+      "commit": "8d76500db24b711637beab3a1c86e36446a763d1"
     },
     {
       "name": "mcp-playwright",
-      "commit": "c2eb054f84253c2768ea17016d9a0ba35197d2dc"
-    },
-    {
-      "name": "mcp-units",
-      "commit": "74a6a9c3f11bd636198d84e28677baef17b0eb2e"
+      "commit": "483aba17488555375071704af845b9ad32705f42"
     }
   ]
 }

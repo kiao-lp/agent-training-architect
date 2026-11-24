@@ -10,7 +10,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:69a67002f3ef5d4b3b3d0d69567e6bbd2c68026216606c931895f526031f49fb
+  content_hash: sha256:71777542b51e8150d9e5a4ebb6cbc1af5aca74f7e6dad14088fc2861602f57df
 - kind: uri
   target: mcp
   value: markitdown
@@ -19,7 +19,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:0a4740e0091c6807a915298339b54068260ee0be5c411ee2e64666c322883c11
+  content_hash: sha256:dc4ffcd4b57648e05bccf26d836bce538d4b866221967f18300d940b255e5b46
 mcp_servers:
 - markitdown
 mcp_configs:
@@ -27,8 +27,10 @@ mcp_configs:
     name: markitdown
     transport: stdio
     args:
+    - --with
+    - azure-ai-contentunderstanding>=1.2.0b1
     - --from
-    - markitdown-mcp==0.0.1a4
+    - markitdown-mcp==0.0.1a8
     - markitdown-mcp
     registry: false
     command: uvx

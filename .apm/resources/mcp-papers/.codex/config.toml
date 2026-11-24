@@ -1,5 +1,5 @@
 [mcp_servers.papers]
 command = "uvx"
-args = ["--from", "paper-search-mcp==0.1.4", "paper-search-mcp"]
+args = ["--with", "mcp<2", "--from", "paper-search-mcp==0.1.4", "paper-search-mcp"]
 
 [mcp_servers.papers.env]

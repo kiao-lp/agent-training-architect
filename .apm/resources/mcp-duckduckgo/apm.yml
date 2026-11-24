@@ -1,7 +1,7 @@
 {
   "name": "mcp-duckduckgo",
-  "version": "1.0.0",
-  "description": "duckduckgo MCP configuration, 0.6.1",
+  "version": "1.0.1",
+  "description": "duckduckgo MCP configuration, 0.7.0",
   "targets": [
     "codex",
     "claude"
@@ -15,7 +15,7 @@
         "command": "uvx",
         "args": [
           "--from",
-          "duckduckgo-mcp-server==0.6.1",
+          "duckduckgo-mcp-server==0.7.0",
           "duckduckgo-mcp-server"
         ]
       }

@@ -3,53 +3,39 @@ apm_version: 0.35.1
 dependencies:
 - repo_url: _local/mcp-duckduckgo
   name: mcp-duckduckgo
-  version: 1.0.0
+  version: 1.0.1
   package_type: apm_package
   source: local
   local_path: ./.apm/resources/mcp-duckduckgo
-  content_hash: sha256:bf93a6003f5333b71f304915ca3e1e6862da7dce1533a023014b3d834aaaff80
+  content_hash: sha256:d0a11aca9ae9fa04464f7660764a3d964579b4c2d2727a73458ce7b461e2fe5e
 - repo_url: _local/mcp-fetch
   name: mcp-fetch
-  version: 1.0.0
+  version: 1.0.1
   package_type: apm_package
   source: local
   local_path: ./.apm/resources/mcp-fetch
-  content_hash: sha256:10c1d2427ee5f58cce83659b97d623c7948d114f368fe2645719dc5be2bd6ce2
-- repo_url: _local/mcp-files
-  name: mcp-files
-  version: 1.0.0
-  package_type: apm_package
-  source: local
-  local_path: ./.apm/resources/mcp-files
-  content_hash: sha256:b73cb1303a8f2a55a76af42e7941064ed7318137e79dbe26950ed663a04c3add
+  content_hash: sha256:38f63d4a783b8db066c46a9265a93dd1ba8327b253d18302f4da5a4f1922eb9b
 - repo_url: _local/mcp-markitdown
   name: mcp-markitdown
-  version: 1.0.0
+  version: 1.0.1
   package_type: apm_package
   source: local
   local_path: ./.apm/resources/mcp-markitdown
-  content_hash: sha256:11fd2e74d7e393679f507ffdbd374f6d00e98bf82c3e5f0d0a7d6c1d9226f21b
+  content_hash: sha256:4bff5a99a053b242a321f614e73eb332fd7804d04232f857d8491faae263eae6
 - repo_url: _local/mcp-papers
   name: mcp-papers
-  version: 1.0.0
+  version: 1.0.1
   package_type: apm_package
   source: local
   local_path: ./.apm/resources/mcp-papers
-  content_hash: sha256:e14a2729e1317f2d5ed3a4a7feb49466737685c38b1f8ff10e7356b38b710b81
+  content_hash: sha256:b7539d050d41ef18f64e0ce525771bedc218ccc274b115877e64d85dc591cde5
 - repo_url: _local/mcp-playwright
   name: mcp-playwright
-  version: 1.0.0
+  version: 1.0.1
   package_type: apm_package
   source: local
   local_path: ./.apm/resources/mcp-playwright
-  content_hash: sha256:80cdcaad438d82ace60967c5a2bee17c1939c61bb07a8d2c401efb1265c603d0
-- repo_url: _local/mcp-units
-  name: mcp-units
-  version: 1.0.0
-  package_type: apm_package
-  source: local
-  local_path: ./.apm/resources/mcp-units
-  content_hash: sha256:abd99391c8a5a35eb329b95d1359c43d11f3690e72044df0661a78bd58d8c55c
+  content_hash: sha256:f3cc3d9eeabb69f061d7bc4a735fab88755ef97a4385149418637fc1406c3b89
 - repo_url: _local/training-design-guidance
   name: training-design-guidance
   version: 1.0.0
@@ -67,14 +53,30 @@ dependencies:
   source: local
   local_path: ./.apm/resources/training-design-guidance
   content_hash: sha256:2e6e16230f76b2f75abbbfcb7122aee558d9a3ad2131ef10c1a54a831175ad1d
+- repo_url: kiao-lp/mcp-files
+  name: mcp-files
+  host: github.com
+  resolved_commit: a47535f2e6ee057f30c641a363fccfd62a92512a
+  resolved_ref: a47535f2e6ee057f30c641a363fccfd62a92512a
+  version: 1.0.0
+  package_type: apm_package
+  content_hash: sha256:efcd9448ad21a2c7ac7aa64c0a9ca707a1535841cc47d3624dda389cc04f1f6c
 - repo_url: kiao-lp/mcp-hybridflow
   name: mcp-hybridflow
   host: github.com
-  resolved_commit: cb0879f92944b77ed38c722b91b7ad0234714045
-  resolved_ref: v1.0.5
+  resolved_commit: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
+  resolved_ref: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
   version: 1.0.5
   package_type: apm_package
-  content_hash: sha256:b232ad16793e3acb22d5d0bc614a230bce6db50371333a27348562439644fa90
+  content_hash: sha256:ff2afe27105e5a8a7eeb7657823a6327b92e4e40222d6b960c490bae42b618d7
+- repo_url: kiao-lp/mcp-units
+  name: mcp-units
+  host: github.com
+  resolved_commit: 28fbddfd43460f9088ae1d6c90abb6f7d236124a
+  resolved_ref: 28fbddfd43460f9088ae1d6c90abb6f7d236124a
+  version: 1.0.0
+  package_type: apm_package
+  content_hash: sha256:78e912e934d2d39f70ae3e2575dac562df176e020976d738362f9485155c9492
 - repo_url: kiao-lp/skill-hybridflow
   alias: hybridflow
   name: hybridflow
@@ -1438,7 +1440,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:956ea227e53343252c33ca415f92b3f2ece81236f20f00be35ad2bc06982d82a
+  content_hash: sha256:0895be9a17ad5b15501792b56788b520db67d86811c40d62b86a4a761b6fd974
 - kind: uri
   target: mcp
   value: fetch
@@ -1447,7 +1449,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:082e0ee2c23f7681d66306b997581dc6d4af9e96909ceb8c84dd44ae25956bf1
+  content_hash: sha256:5e23c30431f07b63a22965f9dc976bf0ea781e07512d1f9b7e4b0c8f2f400aa8
 - kind: uri
   target: mcp
   value: kiao-files
@@ -1483,7 +1485,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:69a67002f3ef5d4b3b3d0d69567e6bbd2c68026216606c931895f526031f49fb
+  content_hash: sha256:71777542b51e8150d9e5a4ebb6cbc1af5aca74f7e6dad14088fc2861602f57df
 - kind: uri
   target: mcp
   value: papers
@@ -1492,7 +1494,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b82f2c3f4d5ca8107efb2b6308a606a5882a9cefa5853f70b6932e47698bc6a0
+  content_hash: sha256:59255993fb8572b324428bac80e8c6cca196984f459f851a51d62de2bfdabde4
 - kind: uri
   target: mcp
   value: playwright
@@ -1501,7 +1503,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:646ec42d3c84bc9920123bb4dc1a7d89acd739f9b64a1096c1fe208457fbc043
+  content_hash: sha256:cae24e298923e7d4ca80c985ab83b247e3884e665ecf111d9b613f9bae1059c8
 - kind: uri
   target: mcp
   value: duckduckgo
@@ -1510,7 +1512,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:3ba12cd12f9dc3c3aae39ab0c829abc5d9efebdb7d6906499624bcef9d4f3ab2
+  content_hash: sha256:5bcbecc3d9db70c781c100219927556c77c85948103084131e73dbb5c3ee4f8f
 - kind: uri
   target: mcp
   value: fetch
@@ -1519,7 +1521,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:6826e3e719ab1ea31d96727e10615e609160829ef274c4fd6a5b58f2a4cee1b6
+  content_hash: sha256:d173300129f5c892dfe41e1a5117c0a7d3bd685f234493c9496c13b7052b9251
 - kind: uri
   target: mcp
   value: kiao-files
@@ -1555,7 +1557,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:0a4740e0091c6807a915298339b54068260ee0be5c411ee2e64666c322883c11
+  content_hash: sha256:dc4ffcd4b57648e05bccf26d836bce538d4b866221967f18300d940b255e5b46
 - kind: uri
   target: mcp
   value: papers
@@ -1564,7 +1566,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:283c8c277f7ea1762499c6eb92e87ec78acd0049de0e3d6c1ba022e38a1262f8
+  content_hash: sha256:3f80564b11f4a50ce09331ab1d03f525eb6795db03250c511db0297771af526d
 - kind: uri
   target: mcp
   value: playwright
@@ -1573,7 +1575,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b019c3f018050cd00adeaf712fe63bef7c351c8b84e9e328f23b8b01575f965c
+  content_hash: sha256:276489357dbae0828b73763586bc1a3215c9294fc7e1622f26804802d74e93b9
 mcp_servers:
 - duckduckgo
 - fetch
@@ -1589,7 +1591,7 @@ mcp_configs:
     transport: stdio
     args:
     - --from
-    - duckduckgo-mcp-server==0.6.1
+    - duckduckgo-mcp-server==0.7.0
     - duckduckgo-mcp-server
     registry: false
     command: uvx
@@ -1597,10 +1599,8 @@ mcp_configs:
     name: fetch
     transport: stdio
     args:
-    - --with
-    - mcp<2
     - --from
-    - mcp-server-fetch==2026.8.18
+    - mcp-server-fetch==2026.11.18
     - mcp-server-fetch
     registry: false
     command: uvx
@@ -1623,8 +1623,10 @@ mcp_configs:
     name: markitdown
     transport: stdio
     args:
+    - --with
+    - azure-ai-contentunderstanding>=1.2.0b1
     - --from
-    - markitdown-mcp==0.0.1a4
+    - markitdown-mcp==0.0.1a8
     - markitdown-mcp
     registry: false
     command: uvx
@@ -1632,6 +1634,8 @@ mcp_configs:
     name: papers
     transport: stdio
     args:
+    - --with
+    - mcp<2
     - --from
     - paper-search-mcp==0.1.4
     - paper-search-mcp
@@ -1642,7 +1646,7 @@ mcp_configs:
     transport: stdio
     args:
     - --yes
-    - '@playwright/mcp@0.0.79'
+    - '@playwright/mcp@0.0.86'
     - --headless
     - --isolated
     - --browser

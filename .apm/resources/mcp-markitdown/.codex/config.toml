@@ -1,5 +1,5 @@
 [mcp_servers.markitdown]
 command = "uvx"
-args = ["--from", "markitdown-mcp==0.0.1a4", "markitdown-mcp"]
+args = ["--with", "azure-ai-contentunderstanding>=1.2.0b1", "--from", "markitdown-mcp==0.0.1a8", "markitdown-mcp"]
 
 [mcp_servers.markitdown.env]

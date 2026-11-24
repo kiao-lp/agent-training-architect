@@ -2,13 +2,15 @@ dependencies:
     apm:
         - path: ./.apm/resources/mcp-duckduckgo
         - path: ./.apm/resources/mcp-fetch
-        - path: ./.apm/resources/mcp-files
+        - git: git@github.com:kiao-lp/mcp-files.git
+          ref: a47535f2e6ee057f30c641a363fccfd62a92512a
         - git: https://github.com/kiao-lp/mcp-hybridflow.git
-          ref: v1.0.5
+          ref: f2a36b5f8795b48993708e9d87f42f8156cf5ae9
         - path: ./.apm/resources/mcp-markitdown
         - path: ./.apm/resources/mcp-papers
         - path: ./.apm/resources/mcp-playwright
-        - path: ./.apm/resources/mcp-units
+        - git: git@github.com:kiao-lp/mcp-units.git
+          ref: 28fbddfd43460f9088ae1d6c90abb6f7d236124a
         - alias: hybridflow
           git: https://github.com/kiao-lp/skill-hybridflow.git
           ref: v1.0.5
@@ -42,4 +44,4 @@ name: agent-training-architect
 targets:
     - codex
     - claude
-version: 1.2.0
+version: 1.2.1

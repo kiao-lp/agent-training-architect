@@ -10,7 +10,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b82f2c3f4d5ca8107efb2b6308a606a5882a9cefa5853f70b6932e47698bc6a0
+  content_hash: sha256:59255993fb8572b324428bac80e8c6cca196984f459f851a51d62de2bfdabde4
 - kind: uri
   target: mcp
   value: papers
@@ -19,7 +19,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:283c8c277f7ea1762499c6eb92e87ec78acd0049de0e3d6c1ba022e38a1262f8
+  content_hash: sha256:3f80564b11f4a50ce09331ab1d03f525eb6795db03250c511db0297771af526d
 mcp_servers:
 - papers
 mcp_configs:
@@ -27,6 +27,8 @@ mcp_configs:
     name: papers
     transport: stdio
     args:
+    - --with
+    - mcp<2
     - --from
     - paper-search-mcp==0.1.4
     - paper-search-mcp

@@ -10,7 +10,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:646ec42d3c84bc9920123bb4dc1a7d89acd739f9b64a1096c1fe208457fbc043
+  content_hash: sha256:cae24e298923e7d4ca80c985ab83b247e3884e665ecf111d9b613f9bae1059c8
 - kind: uri
   target: mcp
   value: playwright
@@ -19,7 +19,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:b019c3f018050cd00adeaf712fe63bef7c351c8b84e9e328f23b8b01575f965c
+  content_hash: sha256:276489357dbae0828b73763586bc1a3215c9294fc7e1622f26804802d74e93b9
 mcp_servers:
 - playwright
 mcp_configs:
@@ -28,7 +28,7 @@ mcp_configs:
     transport: stdio
     args:
     - --yes
-    - '@playwright/mcp@0.0.79'
+    - '@playwright/mcp@0.0.86'
     - --headless
     - --isolated
     - --browser

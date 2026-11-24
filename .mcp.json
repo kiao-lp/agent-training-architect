@@ -5,7 +5,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "duckduckgo-mcp-server==0.6.1",
+        "duckduckgo-mcp-server==0.7.0",
         "duckduckgo-mcp-server"
       ]
     },
@@ -13,10 +13,8 @@
       "type": "stdio",
       "command": "uvx",
       "args": [
-        "--with",
-        "mcp<2",
         "--from",
-        "mcp-server-fetch==2026.8.18",
+        "mcp-server-fetch==2026.11.18",
         "mcp-server-fetch"
       ]
     },
@@ -29,8 +27,10 @@
       "type": "stdio",
       "command": "uvx",
       "args": [
+        "--with",
+        "azure-ai-contentunderstanding>=1.2.0b1",
         "--from",
-        "markitdown-mcp==0.0.1a4",
+        "markitdown-mcp==0.0.1a8",
         "markitdown-mcp"
       ]
     },
@@ -38,6 +38,8 @@
       "type": "stdio",
       "command": "uvx",
       "args": [
+        "--with",
+        "mcp<2",
         "--from",
         "paper-search-mcp==0.1.4",
         "paper-search-mcp"
@@ -48,7 +50,7 @@
       "command": "npx",
       "args": [
         "--yes",
-        "@playwright/mcp@0.0.79",
+        "@playwright/mcp@0.0.86",
         "--headless",
         "--isolated",
         "--browser",

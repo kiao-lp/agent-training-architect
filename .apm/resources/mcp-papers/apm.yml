@@ -1,6 +1,6 @@
 {
   "name": "mcp-papers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "papers MCP configuration, 0.1.4",
   "targets": [
     "codex",
@@ -14,6 +14,8 @@
         "transport": "stdio",
         "command": "uvx",
         "args": [
+          "--with",
+          "mcp<2",
           "--from",
           "paper-search-mcp==0.1.4",
           "paper-search-mcp"

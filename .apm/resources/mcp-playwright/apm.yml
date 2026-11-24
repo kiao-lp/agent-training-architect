@@ -1,7 +1,7 @@
 {
   "name": "mcp-playwright",
-  "version": "1.0.0",
-  "description": "playwright MCP configuration, 0.0.79",
+  "version": "1.0.1",
+  "description": "playwright MCP configuration, 0.0.86",
   "targets": [
     "codex",
     "claude"
@@ -15,7 +15,7 @@
         "command": "npx",
         "args": [
           "--yes",
-          "@playwright/mcp@0.0.79",
+          "@playwright/mcp@0.0.86",
           "--headless",
           "--isolated",
           "--browser",

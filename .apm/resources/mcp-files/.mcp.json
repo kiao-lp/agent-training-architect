@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "kiao-files": {
-      "type": "stdio",
-      "command": "kiao-mcp-files",
-      "args": []
-    }
-  }
-}

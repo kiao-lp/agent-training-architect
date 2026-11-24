@@ -4,6 +4,8 @@
       "type": "stdio",
       "command": "uvx",
       "args": [
+        "--with",
+        "mcp<2",
         "--from",
         "paper-search-mcp==0.1.4",
         "paper-search-mcp"

@@ -1,7 +1,7 @@
 {
   "name": "mcp-markitdown",
-  "version": "1.0.0",
-  "description": "markitdown MCP configuration, 0.0.1a4",
+  "version": "1.0.1",
+  "description": "markitdown MCP configuration, 0.0.1a8",
   "targets": [
     "codex",
     "claude"
@@ -14,8 +14,10 @@
         "transport": "stdio",
         "command": "uvx",
         "args": [
+          "--with",
+          "azure-ai-contentunderstanding>=1.2.0b1",
           "--from",
-          "markitdown-mcp==0.0.1a4",
+          "markitdown-mcp==0.0.1a8",
           "markitdown-mcp"
         ]
       }

@@ -10,7 +10,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:956ea227e53343252c33ca415f92b3f2ece81236f20f00be35ad2bc06982d82a
+  content_hash: sha256:0895be9a17ad5b15501792b56788b520db67d86811c40d62b86a4a761b6fd974
 - kind: uri
   target: mcp
   value: duckduckgo
@@ -19,7 +19,7 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:3ba12cd12f9dc3c3aae39ab0c829abc5d9efebdb7d6906499624bcef9d4f3ab2
+  content_hash: sha256:5bcbecc3d9db70c781c100219927556c77c85948103084131e73dbb5c3ee4f8f
 mcp_servers:
 - duckduckgo
 mcp_configs:
@@ -28,7 +28,7 @@ mcp_configs:
     transport: stdio
     args:
     - --from
-    - duckduckgo-mcp-server==0.6.1
+    - duckduckgo-mcp-server==0.7.0
     - duckduckgo-mcp-server
     registry: false
     command: uvx
