@@ -36,9 +36,10 @@ dependencies:
         - alias: template-lang
           git: https://github.com/kiao-lp/skill-template-lang.git
           ref: v1.0.1
+        - path: ./.apm/resources/training-design-guidance
 description: Design trainings
 name: agent-training-architect
 targets:
     - codex
     - claude
-version: 1.1.2
+version: 1.2.0

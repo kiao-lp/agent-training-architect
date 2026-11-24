@@ -49,6 +49,7 @@ dist/
 /.agents/skills/template-lang/.gitignore
 /.agents/skills/template-lang/SKILL.md
 /.agents/skills/template-lang/apm.yml
+/.agents/skills/training-design-guidance/SKILL.md
 /.claude/skills/hybridflow/.gitignore
 /.claude/skills/hybridflow/SKILL.md
 /.claude/skills/hybridflow/apm.yml
@@ -95,4 +96,5 @@ dist/
 /.claude/skills/template-lang/.gitignore
 /.claude/skills/template-lang/SKILL.md
 /.claude/skills/template-lang/apm.yml
+/.claude/skills/training-design-guidance/SKILL.md
 # End Kiao APM skill projection paths

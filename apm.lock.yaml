@@ -50,6 +50,23 @@ dependencies:
   source: local
   local_path: ./.apm/resources/mcp-units
   content_hash: sha256:abd99391c8a5a35eb329b95d1359c43d11f3690e72044df0661a78bd58d8c55c
+- repo_url: _local/training-design-guidance
+  name: training-design-guidance
+  version: 1.0.0
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/training-design-guidance
+  - .agents/skills/training-design-guidance/SKILL.md
+  - .claude/rules/training-design.md
+  - .claude/skills/training-design-guidance
+  - .claude/skills/training-design-guidance/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/training-design-guidance/SKILL.md: sha256:52e7c9406546771f1a8e9752a1e9faec7d93b66d2b8c01fe0c4aa0069d454d64
+    .claude/rules/training-design.md: sha256:ae009acf3472fcf1bd0aecd6b82233a47b2d8e5ae37b407b7025cd376c731cc2
+    .claude/skills/training-design-guidance/SKILL.md: sha256:52e7c9406546771f1a8e9752a1e9faec7d93b66d2b8c01fe0c4aa0069d454d64
+  source: local
+  local_path: ./.apm/resources/training-design-guidance
+  content_hash: sha256:2e6e16230f76b2f75abbbfcb7122aee558d9a3ad2131ef10c1a54a831175ad1d
 - repo_url: kiao-lp/mcp-hybridflow
   name: mcp-hybridflow
   host: github.com
@@ -368,7 +385,16 @@ deployments:
   owners:
   - .
   active_owner: .
-  content_hash: sha256:166c3f5f5197b936d933e6279151cd4eeefc9a81f00554201453ea20f0583aa1
+  content_hash: sha256:0fcc59669ba22b90fc63b543b3e7af7af1485f2c4ae00d88b83cd47228fbd793
+- kind: project-relative
+  target: claude
+  value: .claude/rules/training-design.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/training-design-guidance
+  active_owner: ./.apm/resources/training-design-guidance
+  content_hash: sha256:ae009acf3472fcf1bd0aecd6b82233a47b2d8e5ae37b407b7025cd376c731cc2
 - kind: project-relative
   target: claude
   value: .claude/skills/hybridflow
@@ -864,6 +890,24 @@ deployments:
   - kiao-lp/skill-template-lang
   active_owner: kiao-lp/skill-template-lang
   content_hash: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
+- kind: project-relative
+  target: claude
+  value: .claude/skills/training-design-guidance
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/training-design-guidance
+  active_owner: ./.apm/resources/training-design-guidance
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/training-design-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/training-design-guidance
+  active_owner: ./.apm/resources/training-design-guidance
+  content_hash: sha256:52e7c9406546771f1a8e9752a1e9faec7d93b66d2b8c01fe0c4aa0069d454d64
 - kind: project-relative
   target: codex
   value: .agents/skills/hybridflow
@@ -1361,13 +1405,31 @@ deployments:
   content_hash: sha256:0c83d8472cea438b9130ffab3d81e8b0f4a9534582c6b8dc48c031cd466f63f6
 - kind: project-relative
   target: codex
+  value: .agents/skills/training-design-guidance
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/training-design-guidance
+  active_owner: ./.apm/resources/training-design-guidance
+  content_hash: null
+- kind: project-relative
+  target: codex
+  value: .agents/skills/training-design-guidance/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - ./.apm/resources/training-design-guidance
+  active_owner: ./.apm/resources/training-design-guidance
+  content_hash: sha256:52e7c9406546771f1a8e9752a1e9faec7d93b66d2b8c01fe0c4aa0069d454d64
+- kind: project-relative
+  target: codex
   value: .codex/agents/agent-training-architect.toml
   runtime: null
   scope: project
   owners:
   - .
   active_owner: .
-  content_hash: sha256:38a417a4b9e7b21d151db55e437c7130dcea70762174a8f3608a3ba3eee440ae
+  content_hash: sha256:b3a1af10cbcfba7bcf4c2371f9d15f2d61fb5a84cbf68f8497117cbe01ff34a0
 - kind: uri
   target: mcp
   value: duckduckgo
@@ -1619,5 +1681,5 @@ local_deployed_files:
 - .claude/agents/agent-training-architect.md
 - .codex/agents/agent-training-architect.toml
 local_deployed_file_hashes:
-  .claude/agents/agent-training-architect.md: sha256:166c3f5f5197b936d933e6279151cd4eeefc9a81f00554201453ea20f0583aa1
-  .codex/agents/agent-training-architect.toml: sha256:38a417a4b9e7b21d151db55e437c7130dcea70762174a8f3608a3ba3eee440ae
+  .claude/agents/agent-training-architect.md: sha256:0fcc59669ba22b90fc63b543b3e7af7af1485f2c4ae00d88b83cd47228fbd793
+  .codex/agents/agent-training-architect.toml: sha256:b3a1af10cbcfba7bcf4c2371f9d15f2d61fb5a84cbf68f8497117cbe01ff34a0
