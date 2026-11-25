@@ -13,7 +13,7 @@ dependencies:
           ref: 28fbddfd43460f9088ae1d6c90abb6f7d236124a
         - alias: hybridflow
           git: https://github.com/kiao-lp/skill-hybridflow.git
-          ref: v1.0.5
+          ref: v1.0.6
         - alias: kiao-adr
           git: https://github.com/kiao-lp/skill-kiao-adr.git
           ref: v1.0.1
@@ -44,4 +44,4 @@ name: agent-training-architect
 targets:
     - codex
     - claude
-version: 1.2.1
+version: 1.2.2
