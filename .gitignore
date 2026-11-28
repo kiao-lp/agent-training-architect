@@ -6,10 +6,10 @@ dist/
 /.agents/skills/hybridflow/.gitignore
 /.agents/skills/hybridflow/SKILL.md
 /.agents/skills/hybridflow/apm.yml
+/.agents/skills/hybridflow/kiao.lock.json
 /.agents/skills/hybridflow/references/api-curl.md
 /.agents/skills/hybridflow/references/cards.md
 /.agents/skills/hybridflow/references/chains.md
-/.agents/skills/hybridflow/references/classes.md
 /.agents/skills/hybridflow/references/execution/agents.md
 /.agents/skills/hybridflow/references/execution/runners.md
 /.agents/skills/hybridflow/references/operations.md
@@ -36,12 +36,14 @@ dist/
 /.agents/skills/markdown-passage-link/.gitignore
 /.agents/skills/markdown-passage-link/SKILL.md
 /.agents/skills/markdown-passage-link/apm.yml
+/.agents/skills/markdown-passage-link/kiao.lock.json
 /.agents/skills/mindmap/.gitignore
 /.agents/skills/mindmap/SKILL.md
 /.agents/skills/mindmap/apm.yml
 /.agents/skills/mlunit/.gitignore
 /.agents/skills/mlunit/SKILL.md
 /.agents/skills/mlunit/apm.yml
+/.agents/skills/mlunit/kiao.lock.json
 /.agents/skills/mlunit/references/azure-modules.md
 /.agents/skills/mlunit/references/file-fallback.md
 /.agents/skills/mlunit/references/retitling-and-paths.md
@@ -49,14 +51,15 @@ dist/
 /.agents/skills/template-lang/.gitignore
 /.agents/skills/template-lang/SKILL.md
 /.agents/skills/template-lang/apm.yml
+/.agents/skills/template-lang/kiao.lock.json
 /.agents/skills/training-design-guidance/SKILL.md
 /.claude/skills/hybridflow/.gitignore
 /.claude/skills/hybridflow/SKILL.md
 /.claude/skills/hybridflow/apm.yml
+/.claude/skills/hybridflow/kiao.lock.json
 /.claude/skills/hybridflow/references/api-curl.md
 /.claude/skills/hybridflow/references/cards.md
 /.claude/skills/hybridflow/references/chains.md
-/.claude/skills/hybridflow/references/classes.md
 /.claude/skills/hybridflow/references/execution/agents.md
 /.claude/skills/hybridflow/references/execution/runners.md
 /.claude/skills/hybridflow/references/operations.md
@@ -83,12 +86,14 @@ dist/
 /.claude/skills/markdown-passage-link/.gitignore
 /.claude/skills/markdown-passage-link/SKILL.md
 /.claude/skills/markdown-passage-link/apm.yml
+/.claude/skills/markdown-passage-link/kiao.lock.json
 /.claude/skills/mindmap/.gitignore
 /.claude/skills/mindmap/SKILL.md
 /.claude/skills/mindmap/apm.yml
 /.claude/skills/mlunit/.gitignore
 /.claude/skills/mlunit/SKILL.md
 /.claude/skills/mlunit/apm.yml
+/.claude/skills/mlunit/kiao.lock.json
 /.claude/skills/mlunit/references/azure-modules.md
 /.claude/skills/mlunit/references/file-fallback.md
 /.claude/skills/mlunit/references/retitling-and-paths.md
@@ -96,5 +101,6 @@ dist/
 /.claude/skills/template-lang/.gitignore
 /.claude/skills/template-lang/SKILL.md
 /.claude/skills/template-lang/apm.yml
+/.claude/skills/template-lang/kiao.lock.json
 /.claude/skills/training-design-guidance/SKILL.md
 # End Kiao APM skill projection paths
